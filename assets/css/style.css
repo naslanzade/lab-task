@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+     
+ 
+        
+}
+
+.main .left-side{
+    display: flex;
+    position: relative;    
+}
+
+.main .left-side .image{
+    width: 80px;
+    height: 55px;
+    border-right: 1px solid rgb(90, 88, 88);  
+}
+
+.main .left-side .image img{
+    padding: 15px;
+}
+
+.main .left-side ul{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50px; 
+    
+}
+
+.main .left-side ul li{    
+    padding-top: 10px;
+    padding-left: 15px;
+    list-style: none;
+    width: 100px;
+    height: 55px;
+    border-right:1px solid rgb(90, 88, 88); 
+}
+
+.main .left-side ul li a{
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+}
+
+
+.right-side input{
+    width: 700px;
+    height: 55px;
+    background-color: rgb(218, 241, 234);    
+    border: 0;
+    outline: 0;
+}
+
+.right-side button i{
+    padding: 7px;
+    width: 40px;
+    height: 32px;
+    border: 0;
+    outline: 0;    
+}
+
+#slider .slide img{
+    width: 100%;
+    height: 250px;
+}
+
+.first-card {
+    margin-top: 50px;
+}
+
+
+.first-card .avatar img{
+    margin-left: 100px;
+    margin-top: -40px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 100px;
+    position: relative;
+    border: 7px solid #fff;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);    
+}
+
+.first-card .body a{
+    text-decoration: none;
+    color: black;
+   
+   
+}
+
+.first-card .statistic {
+    display: flex;
+   background-color:  rgb(218, 241, 234);
+   
+}
+
+.first-card .statistic  ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-card .statistic  ul li{
+   
+    list-style: none;
+     padding: 15px;
+}
+
+
+.cards{
+    display: flex;
+}
+
+
+.second-card {
+    margin-top: 50px;
+}
+
+
+.second-card .avatar img{
+    margin-left: 100px;
+    margin-top: -40px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 100px;
+    position: relative;
+    border: 7px solid #fff;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);    
+}
+
+.second-card .body a{
+    text-decoration: none;
+    color: black;
+   
+   
+}
+
+.second-card .statistic {
+    display: flex;
+   background-color:  rgb(218, 241, 234);
+   
+}
+
+.second-card .statistic  ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-card .statistic  ul li{
+   
+    list-style: none;
+     padding: 15px;
+}
+
+
+.third-card {
+    margin-top: 50px;
+}
+
+
+.third-card .avatar img{
+    margin-left: 100px;
+    margin-top: -40px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 100px;
+    position: relative;
+    border: 7px solid #fff;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);    
+}
+
+.third-card .body a{
+    text-decoration: none;
+    color: black;
+   
+   
+}
+
+.third-card .statistic {
+    display: flex;
+   background-color:  rgb(218, 241, 234);
+   
+}
+
+.third-card .statistic  ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-card .statistic  ul li{
+   
+    list-style: none;
+     padding: 15px;
+}
